@@ -36,10 +36,3 @@ module.exports = ({ env }) => {
     },
   };
 };
-
-// host     : app-6b4fe47a-8a0f-44d2-bab9-0f01d928c193-do-user-5051522-0.b.db.ondigitalocean.com
-// port     : 25060
-// username : db
-// password : 96XFfG4aOxEB5O94
-// database : db
-// sslmode  : require
