@@ -2,6 +2,7 @@ const path = require("path");
 
 module.exports = ({ env }) => {
   console.log(env("DATABASE_HOST"));
+  console.log(env("DATABASE_PORT"));
   return {
     connection: {
       client: "sqlite",
