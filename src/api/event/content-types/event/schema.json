@@ -31,9 +31,9 @@
     "onMainPage": {
       "type": "boolean"
     },
-    "events_categories": {
+    "events_category": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "manyToOne",
       "target": "api::events-category.events-category",
       "inversedBy": "events"
     }
