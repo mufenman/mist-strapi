@@ -4,7 +4,8 @@
   "info": {
     "singularName": "events-category",
     "pluralName": "events-categories",
-    "displayName": "Events_categories"
+    "displayName": "Events_category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +19,7 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::event.event",
-      "mappedBy": "events_category"
+      "mappedBy": "category"
     }
   }
 }
