@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_menu_anti_corruptions",
+  "info": {
+    "displayName": "Anti corruption",
+    "icon": "fist-raised"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

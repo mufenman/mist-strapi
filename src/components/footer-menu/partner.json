@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_footer_menu_partners",
+  "info": {
+    "displayName": "Partner",
+    "icon": "handshake"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

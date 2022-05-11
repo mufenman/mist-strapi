@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_menu_contacts",
+  "info": {
+    "displayName": "contacts",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}
