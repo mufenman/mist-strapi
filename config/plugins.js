@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ env }) => ({
   provider: "do",
   providerOptions: {
     key: env("DO_SPACE_ACCESS_KEY"),
@@ -6,4 +6,4 @@ module.exports = {
     endpoint: env("DO_SPACE_ENDPOINT"),
     space: env("DO_SPACE_BUCKET"),
   },
-};
+});
