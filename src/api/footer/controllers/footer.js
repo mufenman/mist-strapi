@@ -23,14 +23,21 @@ module.exports = createCoreController("api::footer.footer", ({ strapi }) => ({
           return {
             ...a,
             [v]: {
-              populate: "attributes",
+              fields: ["url", "name"],
             },
           };
         }
         return {
           ...a,
           [v]: {
-            populate: "*",
+            populate: {
+              icon: {
+                fields: ["url", "name"],
+              },
+              logo: {
+                fields: ["url", "name"],
+              },
+            },
           },
         };
       }, {}),
