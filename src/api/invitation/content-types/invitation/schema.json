@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invitations",
+  "info": {
+    "singularName": "invitation",
+    "pluralName": "invitations",
+    "displayName": "Invitation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

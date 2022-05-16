@@ -15,13 +15,6 @@
     "Title": {
       "type": "string"
     },
-    "Place": {
-      "type": "enumeration",
-      "enum": [
-        "Національний музей історії україни",
-        "Скарбниця національного музею історії україни"
-      ]
-    },
     "From": {
       "type": "date"
     },
@@ -36,6 +29,11 @@
       "relation": "manyToOne",
       "target": "api::events-category.events-category",
       "inversedBy": "events"
+    },
+    "places": {
+      "type": "component",
+      "repeatable": false,
+      "component": "repeatable-components.places"
     }
   }
 }

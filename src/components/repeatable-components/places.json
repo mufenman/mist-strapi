@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_repeatable_components_places",
+  "info": {
+    "displayName": "Places",
+    "icon": "check-double"
+  },
+  "options": {},
+  "attributes": {
+    "Places": {
+      "type": "enumeration",
+      "enum": [
+        "Національний музей історії україни",
+        "Скарбниця національного музею історії україни"
+      ]
+    }
+  }
+}
