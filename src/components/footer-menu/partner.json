@@ -2,24 +2,23 @@
   "collectionName": "components_footer_menu_partners",
   "info": {
     "displayName": "Partner",
-    "icon": "handshake"
+    "icon": "handshake",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "title": {
-      "type": "string"
-    },
-    "link": {
       "type": "string"
     }
   }

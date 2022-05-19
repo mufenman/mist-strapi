@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_page_comps_events_sections",
+  "info": {
+    "displayName": "EventsSection",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "NavigationBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "repeatable-components.button-link"
+    }
+  }
+}
