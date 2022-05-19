@@ -4,7 +4,8 @@
   "info": {
     "singularName": "invitation",
     "pluralName": "invitations",
-    "displayName": "Invitation"
+    "displayName": "Invitation",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,33 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "places": {
+      "type": "component",
+      "repeatable": false,
+      "component": "repeatable-components.places"
+    },
+    "workingHours": {
+      "type": "string"
+    },
+    "payDeskWorkingHours": {
+      "type": "string"
+    },
+    "weekend": {
+      "type": "string"
+    },
+    "onMainPage": {
+      "type": "boolean"
+    },
+    "titleImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
