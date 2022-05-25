@@ -16,6 +16,15 @@
       "type": "component",
       "repeatable": false,
       "component": "home-page-comps.events-section"
+    },
+    "exhibitTitle": {
+      "type": "string"
+    },
+    "educationTitle": {
+      "type": "string"
+    },
+    "articlesTitle": {
+      "type": "string"
     }
   }
 }
