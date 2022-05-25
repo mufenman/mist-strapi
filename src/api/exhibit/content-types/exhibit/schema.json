@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exhibits",
+  "info": {
+    "singularName": "exhibit",
+    "pluralName": "exhibits",
+    "displayName": "exhibit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "titleImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
