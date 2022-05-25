@@ -15,8 +15,28 @@
     "title": {
       "type": "string"
     },
-    "Content": {
+    "content": {
       "type": "richtext"
+    },
+    "titleImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "previewText": {
+      "type": "richtext"
+    },
+    "category_post": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category-post.category-post",
+      "inversedBy": "posts"
     }
   }
 }

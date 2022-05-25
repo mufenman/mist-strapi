@@ -11,12 +11,14 @@ module.exports = createCoreController("api::invitation.invitation", () => ({
     ctx.query = {
       ...ctx.query,
       populate: {
+        places: {
+          populate: "*",
+        },
         titleImage: {
           fields: ["url", "name"],
         },
       },
     };
-
     const res = await super.find(ctx);
     return res;
   },

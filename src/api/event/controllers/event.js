@@ -32,7 +32,6 @@ module.exports = createCoreController("api::event.event", () => ({
         };
       }, {}),
     };
-    // ctx.query = { ...ctx.query, populate: "*" };
     const res = await super.find(ctx);
     return res;
   },
