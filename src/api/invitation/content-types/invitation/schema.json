@@ -15,11 +15,6 @@
     "title": {
       "type": "string"
     },
-    "places": {
-      "type": "component",
-      "repeatable": false,
-      "component": "repeatable-components.places"
-    },
     "workingHours": {
       "type": "string"
     },
@@ -33,14 +28,20 @@
       "type": "boolean"
     },
     "titleImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "repeatable-components.address"
     }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_repeatable_components_addresses",
+  "info": {
+    "displayName": "address",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "enumeration",
+      "enum": [
+        "Київ, вул. Володимирська, 2",
+        "Київ, вул. Лаврська, 9"
+      ]
+    }
+  }
+}

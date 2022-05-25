@@ -11,7 +11,7 @@ module.exports = createCoreController("api::invitation.invitation", () => ({
     ctx.query = {
       ...ctx.query,
       populate: {
-        places: {
+        address: {
           populate: "*",
         },
         titleImage: {
