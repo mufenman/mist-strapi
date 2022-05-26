@@ -8,7 +8,7 @@ const { createCoreController } = require("@strapi/strapi").factories;
 
 module.exports = createCoreController("api::home-page.home-page", () => ({
   async find(ctx) {
-    const populate = ["Events"];
+    const populate = ["Events", "posts"];
 
     ctx.query = {
       ...ctx.query,
