@@ -12,7 +12,7 @@ module.exports = createCoreController("api::exhibit.exhibit", () => ({
       ...ctx.query,
       populate: {
         titleImage: {
-          fields: ["url", "name"],
+          fields: ["url", "name", "width", "height"],
         },
       },
     };

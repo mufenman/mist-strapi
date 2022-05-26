@@ -23,8 +23,10 @@
     "educationTitle": {
       "type": "string"
     },
-    "articlesTitle": {
-      "type": "string"
+    "posts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page-comps.events-section"
     }
   }
 }
