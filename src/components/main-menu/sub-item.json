@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_main_menu_sub_items",
+  "info": {
+    "displayName": "sub-item",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
