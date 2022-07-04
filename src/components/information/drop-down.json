@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_information_drop_downs",
+  "info": {
+    "displayName": "dropDown",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

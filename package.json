@@ -9,13 +9,13 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.5",
-    "@strapi/plugin-users-permissions": "4.1.5",
-    "@strapi/strapi": "4.1.5",
+    "@_sh/strapi-plugin-ckeditor": "^1.1.0",
+    "@strapi/plugin-i18n": "4.2.2",
+    "@strapi/plugin-users-permissions": "4.2.2",
+    "@strapi/strapi": "4.2.2",
+    "better-sqlite3": "7.4.6",
     "pg": "^8.7.3",
-    "sqlite3": "5.0.2",
     "strapi-provider-upload-do": "^3.6.6"
   },
   "author": {

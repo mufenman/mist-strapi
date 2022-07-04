@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_information_items",
+  "info": {
+    "displayName": "Item",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "dropDown": {
+      "type": "component",
+      "repeatable": true,
+      "component": "information.drop-down"
+    }
+  }
+}
