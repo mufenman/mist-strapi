@@ -17,6 +17,9 @@ module.exports = createCoreController("api::invitation.invitation", () => ({
         titleImage: {
           fields: ["url", "name"],
         },
+        dropDown: {
+          populate: "*",
+        },
       },
     };
     const res = await super.find(ctx);

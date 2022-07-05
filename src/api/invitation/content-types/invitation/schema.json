@@ -45,6 +45,11 @@
     },
     "buttonTitle": {
       "type": "string"
+    },
+    "dropDown": {
+      "type": "component",
+      "repeatable": true,
+      "component": "information.drop-down"
     }
   }
 }
