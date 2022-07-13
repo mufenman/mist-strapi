@@ -8,7 +8,7 @@ const { createCoreController } = require("@strapi/strapi").factories;
 
 module.exports = createCoreController("api::main-menu.main-menu", () => ({
   async find(ctx) {
-    const populate = ["menu", "logo"];
+    const populate = ["menu", "logo", "mobileLogo"];
     ctx.query = {
       ...ctx.query,
       populate: populate.reduce((a, v) => {
@@ -21,6 +21,14 @@ module.exports = createCoreController("api::main-menu.main-menu", () => ({
           };
         }
         if (v === "logo") {
+          return {
+            ...a,
+            [v]: {
+              fields: ["url", "name"],
+            },
+          };
+        }
+        if (v === "mobileLogo") {
           return {
             ...a,
             [v]: {
