@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_museum_history_list_of_medium_blocks",
+  "info": {
+    "displayName": "list-of-medium-blocks",
+    "icon": "stream",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "displayName": "medium-block-with-image",
+      "type": "component",
+      "repeatable": true,
+      "component": "museum-history.medium-block-with-image"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

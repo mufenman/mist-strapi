@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "museum_histories",
+  "info": {
+    "singularName": "museum-history",
+    "pluralName": "museum-histories",
+    "displayName": "MuseumHistory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageStructure": {
+      "type": "dynamiczone",
+      "components": [
+        "museum-history.block-1",
+        "museum-history.list-of-medium-blocks",
+        "museum-history.vertical-images-list",
+        "museum-history.founders-list",
+        "museum-history.list-of-points"
+      ]
+    }
+  }
+}

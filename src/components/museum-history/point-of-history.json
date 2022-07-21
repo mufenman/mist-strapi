@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_museum_history_point_of_histories",
+  "info": {
+    "displayName": "point-of-history",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "pointDescription": {
+      "type": "text"
+    }
+  }
+}

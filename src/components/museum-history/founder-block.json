@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_museum_history_founder_blocks",
+  "info": {
+    "displayName": "founder-block",
+    "icon": "child"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

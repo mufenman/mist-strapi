@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_museum_history_vertical_images_lists",
+  "info": {
+    "displayName": "vertical-images-list",
+    "icon": "file-upload",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "museum-history.image-with-desc-vertical"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

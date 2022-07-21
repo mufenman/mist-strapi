@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_museum_history_list_of_points",
+  "info": {
+    "displayName": "list-of-points",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "museum-history.point-of-history"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

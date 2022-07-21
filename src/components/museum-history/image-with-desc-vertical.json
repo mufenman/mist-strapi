@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_museum_history_image_with_desc_verticals",
+  "info": {
+    "displayName": "image-with-desc-vertical",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

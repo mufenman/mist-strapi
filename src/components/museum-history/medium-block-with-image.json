@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_museum_history_medium_block_with_images",
+  "info": {
+    "displayName": "medium-block-with-image",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageDescription": {
+      "type": "string"
+    }
+  }
+}

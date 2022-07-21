@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_museum_history_founders_lists",
+  "info": {
+    "displayName": "founders-list",
+    "icon": "chalkboard-teacher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "museum-history.founder-block"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
