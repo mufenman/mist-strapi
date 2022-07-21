@@ -1,31 +1,29 @@
 {
-  "collectionName": "components_museum_history_block_1s",
+  "collectionName": "components_museum_history_big_text_block_with_images",
   "info": {
     "displayName": "big-text-block-with-image",
-    "icon": "dice-one",
-    "description": ""
+    "icon": "address-card"
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
     "description": {
       "type": "richtext"
     },
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
-    },
-    "title": {
-      "type": "string"
-    },
-    "insideTitle": {
-      "type": "string"
+      ],
+      "type": "media",
+      "multiple": false
     },
     "imageDescription": {
       "type": "string"

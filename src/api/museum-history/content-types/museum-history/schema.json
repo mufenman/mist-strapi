@@ -15,11 +15,11 @@
     "pageStructure": {
       "type": "dynamiczone",
       "components": [
-        "museum-history.block-1",
         "museum-history.list-of-medium-blocks",
         "museum-history.vertical-images-list",
         "museum-history.founders-list",
-        "museum-history.list-of-points"
+        "museum-history.list-of-points",
+        "museum-history.big-text-block-with-image"
       ]
     }
   }
