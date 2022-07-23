@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "museums_treasuries",
+  "info": {
+    "singularName": "museums-treasury",
+    "pluralName": "museums-treasuries",
+    "displayName": "MuseumsTreasury"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageStructure": {
+      "type": "dynamiczone",
+      "components": [
+        "museum-history.big-text-block-with-image",
+        "museum-history.founders-list",
+        "museum-history.list-of-medium-blocks",
+        "museum-history.list-of-points",
+        "museum-history.vertical-images-list"
+      ]
+    }
+  }
+}
