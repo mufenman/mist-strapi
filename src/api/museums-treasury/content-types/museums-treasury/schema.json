@@ -4,7 +4,8 @@
   "info": {
     "singularName": "museums-treasury",
     "pluralName": "museums-treasuries",
-    "displayName": "MuseumsTreasury"
+    "displayName": "MuseumsTreasury",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,6 +21,12 @@
         "museum-history.list-of-points",
         "museum-history.vertical-images-list"
       ]
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageName": {
+      "type": "string"
     }
   }
 }

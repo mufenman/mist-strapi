@@ -21,6 +21,12 @@
         "museum-history.list-of-points",
         "museum-history.big-text-block-with-image"
       ]
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageName": {
+      "type": "string"
     }
   }
 }
